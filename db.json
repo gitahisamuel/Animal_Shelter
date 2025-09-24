@@ -35,7 +35,7 @@
     "type": "Cat",
     "breed": "Maine Coon",
     "age": "4 years",
-    "image": "luna.jpg",
+    "image": "Luna.jpg",
     "status": "available",
     "description": "Big fluffy cat, loves high places."
   },
@@ -58,45 +58,5 @@
     "image": "daisy.jpg",
     "status": "available",
     "description": "Calm, loves lounging and short walks."
-  },
-  {
-    "id": 7,
-    "name": "Coco",
-    "type": "Bird",
-    "breed": "Parakeet",
-    "age": "6 months",
-    "image": "parakeet1.jpg",
-    "status": "available",
-    "description": "Chirpy little bird who loves seeds."
-  },
-  {
-    "id": 8,
-    "name": "Nibbles",
-    "type": "Rabbit",
-    "breed": "Netherland Dwarf",
-    "age": "1 year",
-    "image": "rabbit2.jpg",
-    "status": "available",
-    "description": "Small, curious, and playful."
-  },
-  {
-    "id": 9,
-    "name": "Bella (Kitten)",
-    "type": "Cat",
-    "breed": "Domestic Short Hair",
-    "age": "6 months",
-    "image": "kitten1.jpg",
-    "status": "available",
-    "description": "A bundle of energy, looking for a playful home."
-  },
-  {
-    "id": 10,
-    "name": "Mango",
-    "type": "Reptile",
-    "breed": "Bearded Dragon",
-    "age": "2 years",
-    "image": "bearded_dragon1.jpg",
-    "status": "available",
-    "description": "Friendly and low-maintenance reptile."
   }
 ]

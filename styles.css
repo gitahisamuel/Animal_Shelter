@@ -1,0 +1,48 @@
+.titleBar{
+    /* height:75pxpx;
+    width: 1200px; */
+    border: solid;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10x;
+    justify-content: space-between;
+  
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin-right: 20px;
+
+}
+.li{
+    margin-left: 2px;
+    font-weight: bold;
+    
+}
+.logo{
+    /* width: 30px;
+    height: 30px;
+    margin-top: 20px; */
+    height: 40px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    
+    
+
+}
+.site-name{
+    font-weight: bold;
+    font-size: 20px;
+    color:#333;
+
+
+}
+.header{
+    /* color:aqua; */
+    justify-items: center;
+}
