@@ -7,8 +7,7 @@
     "breed": "Labrador",
     "age": "3 years",
     "image": "bella.jpg",
-    "status": "available",
-    "description": "Friendly and energetic, loves to play fetch."
+    "status": "available"
   },
   {
     "id": 2,
@@ -17,8 +16,7 @@
     "breed": "Siamese",
     "age": "2 years",
     "image": "milo.jpg",
-    "status": "available",
-    "description": "Quiet and affectionate, enjoys cozy naps."
+    "status": "available"
   },
   {
     "id": 3,
@@ -27,8 +25,7 @@
     "breed": "Dutch",
     "age": "1 year",
     "image": "rabbit1.jpg",
-    "status": "available",
-    "description": "Loves carrots and gentle pets."
+    "status": "available"
   },
   {
     "id": 4,
@@ -37,8 +34,7 @@
     "breed": "Maine Coon",
     "age": "4 years",
     "image": "Luna.jpg",
-    "status": "available",
-    "description": "Big fluffy cat, loves high places."
+    "status": "available"
   },
   {
     "id": 5,
@@ -47,8 +43,7 @@
     "breed": "Beagle",
     "age": "5 years",
     "image": "charlie.jpg",
-    "status": "adopted",
-    "description": "Friendly and good with kids, now adopted!"
+    "status": "adopted"
   },
   {
     "id": 6,
@@ -57,8 +52,7 @@
     "breed": "Bulldog",
     "age": "2 years",
     "image": "daisy.jpg",
-    "status": "available",
-    "description": "Calm, loves lounging and short walks."
+    "status": "available"
   }
 ]
 }
