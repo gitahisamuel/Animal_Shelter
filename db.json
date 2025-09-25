@@ -1,79 +1,76 @@
-{"animals":
-[
-  {
-    "id": 1,
-    "name": "Bella",
-    "type": "Dog",
-    "breed": "Labrador",
-    "age": "3 years",
-    "image": "Images/dawg.jpg",
-    "status": "available"
-  },
-  {
-    "id": 2,
-    "name": "Milo",
-    "type": "Cat",
-    "breed": "Siamese",
-    "age": "2 years",
-    "image": "Images/siamisecaat.jpg",
-    "status": "available"
-  },
-  {
-    "id": 3,
-    "name": "Oliver",
-    "type": "Rabbit",
-    "breed": "Dutch",
-    "age": "1 year",
-    "image": "Images/rabbit.jpg",
-    "status": "available"
-  },
-  {
-    "id": 4,
-    "name": "Luna",
-    "type": "Cat",
-    "breed": "Maine coon",
-    "age": "4 years",
-    "image": "Images/Beagle.jpg",
-    "status": "available"
-  },
-  {
-    "id": 5,
-    "name": "Charlie",
-    "type": "Dog",
-    "breed": "Beagle",
-    "age": "5 years",
-    "image": "Images/Beagle.jpg",
-    "status": "adopted"
-  },
-  {
-    "id": 6,
-    "name": "Daisy",
-    "type": "Dog",
-    "breed": "Bulldog",
-    "age": "2 years",
-    "image": "Images/siamisecaat.jpg",
-    "status": "available"
-  },
-
-  {
-    "id": 7,
-    "name": "Dawg",
-    "type": "Dog",
-    "breed": "Bulldog",
-    "age": "2 Months",
-    "image": "Images/squirel.jpg",
-    "status": "available"
-  },
-
-  {
-    "id": 8,
-    "name": "Giddy",
-    "type": "Bosco",
-    "breed": "Chihuahua",
-    "age": "2 months",
-    "image": "Images/dawg.jpg",
-    "status": "available"
-  }
-
-]
+{
+  "animals": [
+    {
+      "id": "1",
+      "name": "Bella",
+      "type": "Dog",
+      "breed": "Labrador",
+      "age": "3 years",
+      "image": "Images/dawg.jpg",
+      "status": "Adopted"
+    },
+    {
+      "id": "2",
+      "name": "Milo",
+      "type": "Cat",
+      "breed": "Siamese",
+      "age": "2 years",
+      "image": "Images/siamisecaat.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "3",
+      "name": "Oliver",
+      "type": "Rabbit",
+      "breed": "Dutch",
+      "age": "1 year",
+      "image": "Images/rabbit.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "name": "Luna",
+      "type": "Cat",
+      "breed": "Maine coon",
+      "age": "4 years",
+      "image": "Images/Beagle.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "5",
+      "name": "Charlie",
+      "type": "Dog",
+      "breed": "Beagle",
+      "age": "5 years",
+      "image": "Images/Beagle.jpg",
+      "status": "Adopted"
+    },
+    {
+      "id": "6",
+      "name": "Daisy",
+      "type": "Dog",
+      "breed": "Bulldog",
+      "age": "2 years",
+      "image": "Images/siamisecaat.jpg",
+      "status": "Adopted"
+    },
+    {
+      "id": "7",
+      "name": "Dawg",
+      "type": "Dog",
+      "breed": "Bulldog",
+      "age": "2 Months",
+      "image": "Images/squirel.jpg",
+      "status": "Available"
+    },
+    {
+      "id": "8",
+      "name": "Giddy",
+      "type": "Bosco",
+      "breed": "Chihuahua",
+      "age": "2 months",
+      "image": "Images/dawg.jpg",
+      "status": "Available"
+    }
+  ]
 }
