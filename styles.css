@@ -161,8 +161,11 @@
 }
 
 .card-container {
-    display: flex;
-    gap: 20px;
+    display: grid;
+    gap: 2px;
     justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 20px;
+    
 
 }

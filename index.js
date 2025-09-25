@@ -18,21 +18,33 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }).then(response => response.json())
         .then(data => {
-            // console.log(data);
-        });
-    for (const animal of data) {
+                for (const animal of data) {
         const card = document.createElement("div");
         card.classList.add("card");
+        // if(animal.status.lowerCase() === "aopted"){
+        //     card.classList.add("adopted");
+        // } else {
+        //     card.classList.add("available")
+
+        //     }
 
         card.innerHTML = `
-        <h2>${animal.name}</h2>
-        <p>${animal.type}</p>
-
-
+        <img src=${animal.image} alt="kapuss" class="image">
+        <p><strong>Name:</strong> ${animal.name}</p>
+        <p><strong>Type:</strong> ${animal.type}</p>
+        <p><strong>Breed:</strong> ${animal.breed}</p>
+        <p><strong>Age:</strong> ${animal.age}</p>
+        <p><strong>Status:</strong> ${animal.status}</p>
+        <button class="btn-adopt">Adopt</button><br><br>
+        <button class="btn-donate">Donate</button>
       `;
 
         cardContainer.appendChild(card);
     }
+            
+            // console.log(data);
+        });
+
 });
 
 
