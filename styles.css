@@ -169,3 +169,32 @@
     
 
 }
+
+/* Contact & About section styling */
+.contact-about {
+  background-color: #000;     /* black background */
+  color: #fff;                /* white text */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+.contact-about .about,
+.contact-about .contact {
+  flex: 1 1 300px;   /* flexible width, minimum ~300px */
+  margin: 10px;
+}
+
+.contact-about h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+}
+
+.contact-about p {
+  line-height: 1.5;
+  margin: 8px 0;
+}
+
+

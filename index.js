@@ -116,3 +116,24 @@ document.addEventListener("DOMContentLoaded", () => {
         } 
     });
 });
+
+// const loginForm = document.getElementById("login-form");
+//   const errorMessage = document.getElementById("error-message");
+
+//   loginForm.addEventListener("submit", (event) => {
+//     event.preventDefault();  // prevent the form from reloading the page automatically
+
+//     const username = loginForm.username.value.trim();
+//     const password = loginForm.password.value;
+
+//     // Simple client-side validation
+//     if (!username || !password) {
+//       errorMessage.textContent = "Please enter both username and password.";
+//       return;
+//     }
+
+//     // Clear any previous error
+//     errorMessage.textContent = "";
+
+//     // For now just log it — later you’ll send it to your server
+//     console.log("Logging in with", { username, password });
