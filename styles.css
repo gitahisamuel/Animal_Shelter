@@ -170,10 +170,9 @@
 
 }
 
-/* Contact & About section styling */
 .contact-about {
-  background-color: #000;     /* black background */
-  color: #fff;                /* white text */
+  background-color: #000;     
+  color: #fff;              
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -182,7 +181,7 @@
 
 .contact-about .about,
 .contact-about .contact {
-  flex: 1 1 300px;   /* flexible width, minimum ~300px */
+  flex: 1 1 300px;  
   margin: 10px;
 }
 

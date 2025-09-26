@@ -17,17 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
             const card = document.createElement("div");
             card.classList.add("card");
             
-            // 1. Determine if the animal is initially adopted
             const isAdopted = animal.status.toLowerCase() === 'adopted';
 
-            // Add initial class for styling (if you have CSS for these classes)
             if (isAdopted) {
                 card.classList.add("adopted");
             } else {
                 card.classList.add("available");
             }
 
-            // 2. Generate the correct button HTML for the initial load
+
             const adoptButtonHTML = isAdopted
                 ? `<button class="btn-adopted" disabled>Adopted!</button><br><br>`
                 : `<button class="btn-adopt"> Adopt</button><br><br>`;
@@ -46,17 +44,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             cardContainer.appendChild(card);
 
-            // 3. Select the button that MIGHT be present for attaching the listener
-            //    Only select it if the animal is NOT already adopted.
+
             const adoptBtn = card.querySelector(".btn-adopt"); 
             const donateBtn = card.querySelector(".btn-donate");
             const statusDisplay = card.querySelector(".status-display");
 
-            // --- ADOPT LOGIC (Modified to only attach listener if button exists) ---
             if (adoptBtn) {
                 adoptBtn.addEventListener("click", () => {
                     
-                    // 1. Send PATCH request to API to update status
                     fetch(`${api_url}/${animal.id}`, {
                         method: "PATCH",
                         headers: { "Content-Type": "application/json" },
@@ -69,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         return response.json();
                     })
                     .then(updatedAnimal => {
-                        // 2. Update the local animal object and UI
+
                         animal.status = updatedAnimal.status; 
 
                         // Change status text in the card
@@ -87,13 +82,13 @@ document.addEventListener("DOMContentLoaded", () => {
                         adoptBtn.classList.remove('btn-adopt');
                         adoptBtn.classList.add('btn-adopted');
 
-                        // Show success alert
+                
                         alert(`Congratulations! You've taken the first step to adopt ${animal.name}! We'll be in touch soon.`);
                     });
                 });
             }
 
-            // --- DONATE LOGIC (Unchanged) ---
+
             if (donateBtn) {
                 donateBtn.addEventListener("click", () => {
                     const donationString = prompt(`Enter amount in KSh you wish to donate for ${animal.name}:`);
@@ -116,24 +111,3 @@ document.addEventListener("DOMContentLoaded", () => {
         } 
     });
 });
-
-// const loginForm = document.getElementById("login-form");
-//   const errorMessage = document.getElementById("error-message");
-
-//   loginForm.addEventListener("submit", (event) => {
-//     event.preventDefault();  // prevent the form from reloading the page automatically
-
-//     const username = loginForm.username.value.trim();
-//     const password = loginForm.password.value;
-
-//     // Simple client-side validation
-//     if (!username || !password) {
-//       errorMessage.textContent = "Please enter both username and password.";
-//       return;
-//     }
-
-//     // Clear any previous error
-//     errorMessage.textContent = "";
-
-//     // For now just log it — later you’ll send it to your server
-//     console.log("Logging in with", { username, password });
